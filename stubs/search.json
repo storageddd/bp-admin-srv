@@ -4,48 +4,55 @@
     "status": 0,
     "phone": "+7 948 674-34-56",
     "name": "Петр",
-    "date": "сегодня, 22:47"
+    "date": "сегодня, 22:47",
+    "canceled": false
   },
   {
     "id": 1234,
     "status": 0,
     "phone": "+7 948 674-34-56",
     "name": "Мария",
-    "date": "вчера, 22:46"
+    "date": "вчера, 22:46",
+    "canceled": false
   },
   {
     "id": 1235,
     "status": 0,
     "phone": "+7 948 674-34-56",
     "name": "Аркадий",
-    "date": "вчера, 23:46"
+    "date": "вчера, 23:46",
+    "canceled": false
   },
   {
     "id": 1239,
     "status": 1,
     "phone": "+7 948 674-34-56",
     "name": "Юлия",
-    "date": "вчера, 22:46"
+    "date": "вчера, 22:46",
+    "canceled": false
   },
   {
     "id": 1241,
     "status": 2,
     "phone": "+7 948 674-34-56",
     "name": "Антон",
-    "date": "вчера, 22:46"
+    "date": "вчера, 22:46",
+    "canceled": false
   },
   {
     "id": 1242,
     "status": 2,
     "phone": "+7 948 674-34-56",
     "name": "Антон",
-    "date": "вчера, 22:47"
+    "date": "вчера, 22:47",
+    "canceled": true
   },
   {
     "id": 1244,
     "status": 2,
     "phone": "+7 948 674-34-56",
     "name": "Антон",
-    "date": "вчера, 22:49"
+    "date": "вчера, 22:49",
+    "canceled": false
   }
 ]
