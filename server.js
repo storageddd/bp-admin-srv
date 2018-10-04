@@ -14,28 +14,28 @@ app.get('/orders', (req, res) => res.sendFile(path.join(__dirname+'/index.html')
 app.get('/api/config', (req, res) => {
   if (!isAuthorizationTokenValid(req.headers.authorization)) return;
 
-  let data = require('./stubs/config.json');
+  let data = require('../stubs/config.json');
   return res.send(data);
 });
 
 app.get('/api/orders', (req, res) => {
   if (!isAuthorizationTokenValid(req.headers.authorization)) return;
 
-  let data = require('./stubs/orders.json');
+  let data = require('../stubs/orders.json');
   return res.send(data);
 });
 
 app.get('/api/order/*', (req, res) => {
   if (!isAuthorizationTokenValid(req.headers.authorization)) return;
 
-  let data = require('./stubs/order.json');
+  let data = require('../stubs/order.json');
   return res.send(data);
 });
 
-app.get('/api/search_orders', (req, res) => {
+app.get('/api/search_orders/*', (req, res) => {
   if (!isAuthorizationTokenValid(req.headers.authorization)) return;
 
-  let data = require('./stubs/search.json');
+  let data = require('../stubs/search.json');
   return res.send(data);
 });
 
@@ -43,8 +43,8 @@ function isAuthorizationTokenValid(token) {
   return true;
 }
 
-app.post('/api/cancel_order', (req, res) => { console.log(req.body); return res.sendStatus(200) });
-app.post('/api/change_order_status', (req, res) => { console.log(req.body); return res.sendStatus(200) });
+app.post('/api/cancel_order/*', (req, res) => { console.log(req.body); return res.sendStatus(200) });
+app.post('/api/change_order_status/*', (req, res) => { console.log(req.body); return res.sendStatus(200) });
 
 app.listen(port, () => console.log(`Example app listening on port ${port}!`))
 
