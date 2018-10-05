@@ -29,13 +29,7 @@ app.get('/api/order/*', (req, res) => {
   if (!isAuthorizationTokenValid(req.headers.authorization)) return;
 
   let data = require('./stubs/order.json');
-  return res.send(data);
-});
-
-app.get('/api/search_orders/*', (req, res) => {
-  if (!isAuthorizationTokenValid(req.headers.authorization)) return;
-
-  let data = require('./stubs/search.json');
+  data.id = parseInt(req.params[0]);
   return res.send(data);
 });
 
