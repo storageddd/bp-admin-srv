@@ -1,0 +1,15 @@
+{
+  "name": "Пиццерия на Бауманке",
+  "status": "Переговоры",
+  "seller": "Андрей Иванов",
+  "isSellerUser": true,
+  "innovator": "Андрей Иванов",
+  "isInnovatorUser": true,
+  "comment": "Перезвонить в пн после 12. Готовы на оптимальный 40",
+  "address": "ул. Маршала Голованова, 7",
+  "fullName": "Сергей Иванович Смерафимович",
+  "position": "Менеджер",
+  "phone": "+7 925 123 45 67",
+  "email": "serges@firm.ru",
+  "estimatedTariff": "Оптима 900 с роялти"
+}

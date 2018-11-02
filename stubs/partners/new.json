@@ -1,0 +1,16 @@
+{
+  "tariffs": [
+    {
+      "value": 1,
+      "text": "Лицензия the best way"
+    },
+    {
+      "value": 2,
+      "text": "Лицензия 2"
+    },
+    {
+      "value": 3,
+      "text": "Лицензия the beast way"
+    }
+  ]
+}

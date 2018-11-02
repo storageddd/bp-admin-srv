@@ -1,0 +1,11 @@
+{
+  "userName": "Андрей Иванов",
+  "id": "0000129",
+  "position": "Агент",
+  "registrationDate": "01.09.2017",
+  "phone": "+7 925 999 800",
+  "subscriptionFee": "500",
+  "isSubscriptionFeePaid": true,
+  "nextSubscriptionFeeData": "15.10.2017",
+  "positionDesc": "Статус Агент позволяет вам получать доход в размере 000 за каждого партнера и в размере 000 за каждого дистрибьютора"
+}

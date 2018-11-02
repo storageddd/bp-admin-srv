@@ -1,0 +1,21 @@
+{
+  "level": 2,
+  "totalRub": 45000,
+  "totalBnc": 3500,
+  "defaultInterval": 1,
+  "intervals": [
+    {
+      "value": 0,
+      "text": "За год"
+    },
+    {
+      "value": 1,
+      "text": "За месяц"
+    },
+    {
+      "value": 2,
+      "text": "За все время"
+    }
+  ],
+  "list": []
+}
