@@ -1,0 +1,38 @@
+{
+  "document": {
+    "name": "Регламент работы франчайзи",
+    "date": "01.09.2018",
+    "url": "#"
+  },
+  "level": 1,
+  "levels": [
+    {
+      "num": 1,
+      "personalIncome": "20%",
+      "teamInfo": "Партнеры 1 линии вниз от Вас",
+      "teamIncome": "7%",
+      "cashback": "нет"
+    },
+    {
+      "num": 2,
+      "personalIncome": "40%",
+      "teamInfo": "Партнеры 2 линии вниз от Вас",
+      "teamIncome": "27%",
+      "cashback": "нет"
+    },
+    {
+      "num": 3,
+      "personalIncome": "50%",
+      "teamInfo": "Партнеры 3 линии вниз от Вас",
+      "teamIncome": "57%",
+      "cashback": "нет"
+    },
+    {
+      "num": 4,
+      "personalIncome": "80%",
+      "teamInfo": "Партнеры 4 линии вниз от Вас",
+      "teamIncome": "77%",
+      "cashback": "да"
+    }
+  ]
+}

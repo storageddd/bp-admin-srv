@@ -38,6 +38,16 @@ app.get('/api/teams/pagi', (req, res) => {
   return res.send(data);
 });
 
+app.get('/api/teams/levels', (req, res) => {
+  let data = require('./stubs/teams/levels.json');
+  return res.send(data);
+});
+
+app.get('/api/teams/level-change/*', (req, res) => {
+  let data = require('./stubs/teams/level-change.json');
+  return res.send(data);
+});
+
 app.get('/api/partners', (req, res) => {
   let data = require('./stubs/partners/index.json');
   return res.send(data);
